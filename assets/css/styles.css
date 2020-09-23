@@ -336,8 +336,8 @@ img{
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
   color: white;
+  text: white;
   font-size: 30px;
   text-decoration: none;
 }
