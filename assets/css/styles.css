@@ -331,9 +331,11 @@ img{
 .work__img img:hover{
   transform: scale(1.1);
 }
-.nidhi{
-  color: white;
-}  
+strong{
+  color:white;
+  font-size: 20px;
+}
+
 .work__center{
   position: absolute;
   top: 70%;
