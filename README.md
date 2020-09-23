@@ -1,3 +1,3 @@
-# Portfolio Responsive Complete
+# Responsive Portfolio  
 
 A clean and nice web portfolio. 
