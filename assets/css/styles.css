@@ -302,6 +302,12 @@ img{
 }
 .skills__react{
   width: 75%;
+  display:flex;
+  
+
+}
+.skills__ml{
+  width: 65%;
 }
 .skills__img{
   border-radius: .5rem;
@@ -314,8 +320,9 @@ img{
 }
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
+  border-radius: .8rem;
   overflow: hidden;
+  background-color: #000000;
 }
 .work__img img{
   transition: 1s;
@@ -323,6 +330,35 @@ img{
 }
 .work__img img:hover{
   transform: scale(1.1);
+}
+.work__center{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+/* ===== BLOGS =====*/
+
+.blog__img{
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  border-radius: .8rem;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.blog__center{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  font-size: 25px;
+  text-decoration: none;
 }
 
 /* ===== CONTACT =====*/
@@ -431,6 +467,11 @@ img{
     width: 300px;
   }
   .work__container{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 2rem;
+  }
+  .blog__container{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
