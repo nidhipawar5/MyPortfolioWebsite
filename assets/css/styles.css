@@ -292,17 +292,21 @@ img{
   width: 95%;
 }
 .skills__css{
-  width: 85%;
+  width: 75%;
 }
 .skills__js{
-  width: 65%;
+  width: 85%;
 }
 .skills__ux{
-  width: 85%;
+  width: 65%;
+}
+.skills__react{
+  width: 75%;
 }
 .skills__img{
   border-radius: .5rem;
 }
+
 
 /* ===== WORK =====*/
 .work__container{
